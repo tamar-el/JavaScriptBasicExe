@@ -7,4 +7,11 @@ let number = 10045; // INPUT
 // (keep the "// INPUT" comments - the tests use them to try other values)
 
 // write your code below this line
-
+let num1=number;
+let count=0;
+while(num1>0)
+{
+ count+=1;
+ num1=Math.floor(num1/10);
+}
+console.log(count);
