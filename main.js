@@ -11,3 +11,13 @@ let number = 6; // INPUT
 
 // write your code below this line
 
+while(number!=1)
+{
+    if(number%2==0)
+        number=Math.floor(number/2);
+    else{
+        number*=3;
+        number++;
+    }
+    console.log(number);
+}
