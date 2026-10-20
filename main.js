@@ -12,3 +12,6 @@ let number = 4; // INPUT
 
 // write your code below this line
 
+for (let index = 1; index <=10; index++) {
+    console.log(number,"x",index,"=",number*index);   
+}
