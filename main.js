@@ -7,8 +7,15 @@
 // ****
 
 let rows = 4; // INPUT
-
+let stars="";
 // (keep the "// INPUT" comments - the tests use them to try other values)
 
 // write your code below this line
 
+for (let index = 0; index < rows; index++) {
+    for (let j = 0; j <= index; j++) {
+        stars+="*";
+    }  
+    console.log(stars);
+    stars="";  
+}
