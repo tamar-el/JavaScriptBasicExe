@@ -9,3 +9,15 @@ let number = 121; // INPUT
 
 // write your code below this line
 
+let rev=number%10;
+let num1=Math.floor(number/10);;
+while(num1>0){
+    rev*=10;
+    rev+=num1%10;
+    num1=Math.floor(num1/10);
+}
+if(rev==number)
+{console.log("Palindrome");
+}else{
+    console.log("Not a Palindrome");
+}
