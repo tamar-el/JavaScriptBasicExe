@@ -8,3 +8,7 @@ let end = 10; // INPUT
 
 // write your code below this line
 
+for (let index = start; index <= end; index++) {
+    if(index%2===0)
+        console.log(index);   
+}
